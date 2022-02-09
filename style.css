@@ -12,7 +12,11 @@ body {
   }
   
   h1,
-  h2,
+  h2 {
+    font-family: fantasy;
+    color: lightslategray;
+    background-color: lightpink;
+  }
   h3,
   h4,
   h5,
@@ -26,10 +30,20 @@ body {
 
   header {
       display: flex;
+      padding-left: 20 px;
+      padding-top: 15px;
       align-items: center;
       justify-content:space-between;
       font-family: fantasy;
       color: lightslategray;
       background-color: lightpink;
+      border: 5px solid grey;
       
+  }
+  header .title{
+      padding: 10 px 20 px 0 px 30 px;
+  }
+  a {
+      color:rgb(105, 105, 105);
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
