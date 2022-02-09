@@ -1,3 +1,7 @@
+* {
+    box-sizing: border box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -18,4 +22,14 @@ body {
   
   p {
     margin: 0;
+  }
+
+  header {
+      display: flex;
+      align-items: center;
+      justify-content:space-between;
+      font-family: fantasy;
+      color: lightslategray;
+      background-color: lightpink;
+      
   }
