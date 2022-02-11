@@ -45,8 +45,8 @@ body {
       padding: 10 px 20 px 0 px 30 px;
   }
   .hero {
-    background-image: url("../My-Portfolio/hero\ design.jpg");
-    height: vh;
+    display: flex;
+    background-image: url("../My-Portfolio/hero/design.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -58,5 +58,5 @@ body {
     align-items: right;
   }
 section .work1 {
-      background-image: url(../My-Portfolio/Screen\ Shot\ 2022-02-11\ at\ 1.02.09\ PM.png)
+      background-image: url()
   }
