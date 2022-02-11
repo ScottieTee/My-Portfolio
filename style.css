@@ -1,5 +1,6 @@
 * {
     box-sizing: border box;
+    background-color: rgb(224, 166, 175);
 }
 
 body {
@@ -43,7 +44,19 @@ body {
   header .title{
       padding: 10 px 20 px 0 px 30 px;
   }
+  .hero {
+    background-image: url("../My-Portfolio/hero\ design.jpg");
+    height: vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
   a {
       color:rgb(105, 105, 105);
       font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+ section .description {
+    align-items: right;
+  }
+section .work1 {
+      background-image: url(../My-Portfolio/Screen\ Shot\ 2022-02-11\ at\ 1.02.09\ PM.png)
   }
