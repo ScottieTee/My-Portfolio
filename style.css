@@ -89,3 +89,38 @@ main {
 section .work1 {
       background-image: url()
   }
+  .surf {
+    background-image: url("../My-Portfolio/assets/images/filler1.jpeg");
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+  }
+  .led {
+    background-image: url("../My-Portfolio/assets/images/filler2.jpeg");
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+  }
+  .puzzles {
+    background-image: url("../My-Portfolio/assets/images/filler3.jpeg");
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+  }
+  .buddy {
+    background-image: url("../My-Portfolio/assets/images/filler4.jpeg");
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+  }
+  .calculator {
+    background-image: url("../My-Portfolio/assets/images/filler5.jpeg");
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: center;
+  }
