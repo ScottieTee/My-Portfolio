@@ -12,25 +12,29 @@ body {
     line-height: 1.5;
   }
   
-  h1,
+  h1 {
+    font-family: fantasy;
+    color: lightslategray;
+    background-color: lightpink;
+  }
   h2 {
     font-family: fantasy;
     color: lightslategray;
     background-color: lightpink;
   }
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0;
-  }
-  
+  h3 {
+  font-family: fantasy;
+  color: lightslategray;
+  background-color: lightpink;
+  } 
   p {
     margin: 0;
   }
 
   header {
       display: flex;
+      flex-direction: row;
+      flex-wrap:wrap;
       padding-left: 20 px;
       padding-top: 15px;
       align-items: center;
@@ -39,21 +43,44 @@ body {
       color: lightslategray;
       background-color: lightpink;
       border: 5px solid grey;
-      
+      box-shadow: 0 5px 35px;    
   }
   header .title{
       padding: 10 px 20 px 0 px 30 px;
   }
-  .hero {
-    display: flex;
-    background-image: url("../My-Portfolio/hero/design.jpg");
-    background-size: cover;
-    background-position: center;
-    position: relative;
-a {
-      color:rgb(105, 105, 105);
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
-  }
+header nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+header nav a {
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-right: 10px;
+  font-size: 1.4rem;
+  background-image: var(--secondary);
+  background-repeat:no-repeat;
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.25s ease-in;
+}
+header nav a:hover{
+  
+}
+main {
+  max-width: 88%;
+  margin-top: 20px;
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero {
+  background-image: url("../images/hero-design.jpg");
+  display: flex;
+  justify-content: flex-end;
+  background-size: cover;
+  background-position: center;
+}
  section .description {
    display: flex;
    justify-content: end;
