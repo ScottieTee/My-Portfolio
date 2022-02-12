@@ -50,12 +50,14 @@ body {
     background-size: cover;
     background-position: center;
     position: relative;
-  a {
+a {
       color:rgb(105, 105, 105);
       font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
  section .description {
-    align-items: right;
+   display: flex;
+   justify-content: end;
+   align-items: right;
   }
 section .work1 {
       background-image: url()
