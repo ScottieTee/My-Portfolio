@@ -22,6 +22,10 @@ body {
     color: lightslategray;
     background-color: lightpink;
   }
+  h2 .self{
+    display: flex;
+    size: 10px;
+  }
   h3 {
   font-family: fantasy;
   color: lightslategray;
@@ -64,63 +68,87 @@ header nav a {
   background-position: bottom;
   transition: all 0.25s ease-in;
 }
-header nav a:hover{
-  
+.section-page{
+  display:flex;
+  align-items: center;
 }
-main {
-  max-width: 88%;
-  margin-top: 20px;
-  margin-bottom: 45px;
-  margin-left: auto;
-  margin-right: auto;
+.section-page img{
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.words{
+  padding:1rem;
 }
 .hero {
-  background-image: url("../images/hero-design.jpg");
+  background-image: url("../My-Portfolio/assets/images/hdesign.jpg");
   display: flex;
   justify-content: flex-end;
   background-size: cover;
   background-position: center;
 }
- section .description {
-   display: flex;
-   justify-content: end;
-   align-items: right;
-  }
-section .work1 {
-      background-image: url()
-  }
+.flex-container {
+  height: 25vh;
+  width: 80vw;
+  padding: 0.5em;
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flex-box{
+}
+.projectinfo{
+  position: absolute;
+  line-height: 0.5rem;
+  top: 50px;
+  padding: 1rem;
+}
   .surf {
     background-image: url("../My-Portfolio/assets/images/filler1.jpeg");
-    display: flex;
-    justify-content: flex-end;
+    width: 50%;
+    height:200px;
     background-size: cover;
     background-position: center;
+    position: relative;
   }
   .led {
     background-image: url("../My-Portfolio/assets/images/filler2.jpeg");
-    display: flex;
-    justify-content: flex-end;
+    width: 50%;
+    height:200px;
     background-size: cover;
     background-position: center;
+    position: relative;
   }
   .puzzles {
     background-image: url("../My-Portfolio/assets/images/filler3.jpeg");
-    display: flex;
-    justify-content: flex-end;
+    width: 50%;
+    height:200px;
     background-size: cover;
     background-position: center;
+    position: relative;
   }
   .buddy {
     background-image: url("../My-Portfolio/assets/images/filler4.jpeg");
-    display: flex;
-    justify-content: flex-end;
+    width: 50%;
+    height:200px;
     background-size: cover;
     background-position: center;
+    position: relative;
   }
   .calculator {
     background-image: url("../My-Portfolio/assets/images/filler5.jpeg");
-    display: flex;
-    justify-content: flex-end;
+    width: 50%;
+    height:200px;
     background-size: cover;
     background-position: center;
+    position: relative;
+  }
+  .section-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer{
+    position: relative;
+    bottom: 0;
   }
