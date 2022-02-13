@@ -109,7 +109,7 @@ header nav a {
   padding: 1rem;
 }
   .surf {
-    background-image: url("../My-Portfolio/assets/images/filler1.jpeg");
+    background-image: url("./assets/images/filler1.jpeg");
     width: 50%;
     height:200px;
     background-size: cover;
@@ -117,7 +117,7 @@ header nav a {
     position: relative;
   }
   .led {
-    background-image: url("../My-Portfolio/assets/images/filler2.jpeg");
+    background-image: url("./assets/images/filler2.jpeg");
     width: 50%;
     height:200px;
     background-size: cover;
@@ -125,7 +125,7 @@ header nav a {
     position: relative;
   }
   .puzzles {
-    background-image: url("../My-Portfolio/assets/images/filler3.jpeg");
+    background-image: url("./assets/images/filler3.jpeg");
     width: 50%;
     height:200px;
     background-size: cover;
@@ -133,7 +133,7 @@ header nav a {
     position: relative;
   }
   .buddy {
-    background-image: url("../My-Portfolio/assets/images/filler4.jpeg");
+    background-image: url("./assets/images/filler4.jpeg");
     width: 50%;
     height:200px;
     background-size: cover;
@@ -141,7 +141,7 @@ header nav a {
     position: relative;
   }
   .calculator {
-    background-image: url("../My-Portfolio/assets/images/filler5.jpeg");
+    background-image: url("./assets/images/filler5.jpeg");
     width: 50%;
     height:200px;
     background-size: cover;
