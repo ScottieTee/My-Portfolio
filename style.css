@@ -79,10 +79,12 @@ header nav a {
   border-radius: 8px;
 }
 .words{
+  font-family: fantasy;
+  color: lightslategray;
   padding:1rem;
 }
 .hero {
-  background-image: url("../My-Portfolio/assets/images/hdesign.jpg");
+  background-image: url("./assets/images/hdesign.jpg");
   display: flex;
   justify-content: flex-end;
   background-size: cover;
@@ -97,10 +99,32 @@ header nav a {
   align-items: flex-start;
   text-align: center;
 }
-.flex-box{
+.section-work {
   display: flex;
-  width: 100%;
-  height: auto;
+  justify-content: flex-end;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+  border-radius: 8px;
+}
+.flex-box{
+    margin: 0.5em;
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    padding: 0 0 20px 0px;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
 }
 .projectinfo{
   position: absolute;
@@ -108,6 +132,7 @@ header nav a {
   top: 50px;
   padding: 1rem;
 }
+
   .surf {
     background-image: url("./assets/images/filler1.jpeg");
     width: 50%;
@@ -147,6 +172,9 @@ header nav a {
     background-size: cover;
     background-position: center;
     position: relative;
+  }
+  .flex-box:hover {
+    background-color: rgba(0, 0, 0, 0.3);
   }
   .section-contact {
     display: flex;
