@@ -21,6 +21,9 @@ body {
     font-family: fantasy;
     color: lightslategray;
     background-color: lightpink;
+    border: 2px;
+    border-color: gray;
+    border-radius:10px;
   }
   h2 .self{
     display: flex;
@@ -72,6 +75,7 @@ header nav a {
   display:flex;
   align-items: center;
   text-align: center;
+
 }
 .section-page img{
   width: 100%;
@@ -106,6 +110,8 @@ header nav a {
   flex-wrap: wrap;
   align-content: stretch;
   border-radius: 8px;
+  text-align: center;
+  font-size: 28px;
 }
 .flex-box{
     margin: 0.5em;
@@ -125,6 +131,12 @@ header nav a {
     background-size: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;
+}
+.container-flex{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
 .projectinfo{
   position: absolute;
@@ -180,6 +192,12 @@ header nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 28px;
+  }
+  .contactinfo {
+    align-items: center;
+    font-size:small;
+    text-align: center;
   }
   footer{
     display: flex;
